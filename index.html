@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <link rel="stylesheet" href="sass/styles.css" />
+  </head>
+  <body>
+    <main class="container-card">
+      <picture>
+        <!-- trocar a imagem em determinado tamanho de tela -->
+        <source
+          media="(max-width: 27.5rem)"
+          srcset="images/image-product-mobile.jpg"
+        />
+        <img
+          class="image"
+          src="images/image-product-desktop.jpg"
+          alt="Frasco de perfume, Gabrielle Essence."
+        />
+      </picture>
+
+      <section class="infos">
+        <div class="info">
+          <p class="category">Perfume</p>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+        </div>
+        <div class="description">
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+        </div>
+        <div class="cost">
+          <p class="put">$149.99</p>
+          <p class="of">$169.99</p>
+        </div>
+        <button class="btn">
+          <img src="images/icon-cart.svg" alt="icone carrinho de compras" />
+          Add to Cart
+        </button>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a target="_blank" href="https://github.com/lucassalles-git">lucassalles-git</a>.
+    </footer>
+  </body>
+</html>
