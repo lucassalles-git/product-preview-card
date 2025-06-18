@@ -67,6 +67,26 @@ body {
   /*Valor anterior*/
   text-decoration: line-through;
 }
+.container-card .btn {
+  padding: 0.7rem 1rem;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  color: hsl(0, 0%, 100%);
+  transition: background 0.3s;
+}
+.container-card .btn img {
+  width: 1rem;
+  height: auto;
+}
+.container-card .btn:hover {
+  background-color: hsl(158, 42%, 18%);
+  cursor: pointer;
+}
 
 .infos {
   padding: 1.4rem;
@@ -86,30 +106,8 @@ body {
   gap: 1rem;
 }
 
-.btn {
-  padding: 0.7rem 1rem;
-  background-color: hsl(158, 36%, 37%);
-  border: none;
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.7rem;
-  color: hsl(0, 0%, 100%);
-  transition: background 0.3s;
-}
-.btn img {
-  width: 1rem;
-  height: auto;
-}
-
-.btn:hover {
-  background-color: hsl(158, 42%, 18%);
-  cursor: pointer;
-}
-
 .attribution {
-  font-size: 11px;
+  font-size: 0.688rem;
   text-align: center;
   color: hsl(228, 12%, 48%);
 }
